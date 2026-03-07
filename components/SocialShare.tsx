@@ -46,6 +46,15 @@ export default function SocialShare({ url, title, className = '' }: SocialShareP
         </svg>
       ),
     },
+    {
+      label: 'Text message',
+      href: `sms:?body=${encodeURIComponent(`${title}\n${url}`)}`,
+      icon: (
+        <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H5.17L4 17.17V4h16v12z" />
+        </svg>
+      ),
+    },
   ];
 
   return (
@@ -56,10 +65,9 @@ export default function SocialShare({ url, title, className = '' }: SocialShareP
           <a
             key={link.label}
             href={link.href}
-            target="_blank"
-            rel="noopener noreferrer"
+            {...(link.href.startsWith('http') ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
             className="rounded-lg p-2 text-neutral-500 transition hover:bg-neutral-100 hover:text-accent"
-            aria-label={`Share on ${link.label}`}
+            aria-label={link.label === 'Text message' ? 'Share via text message' : `Share on ${link.label}`}
           >
             {link.icon}
           </a>
