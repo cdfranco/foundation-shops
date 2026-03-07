@@ -10,6 +10,8 @@ import SocialShare from '@/components/SocialShare';
 import BlogCard from '@/components/BlogCard';
 import Newsletter from '@/components/Newsletter';
 
+export const dynamicParams = true;
+
 export async function generateStaticParams() {
   return blogPosts.map((post) => ({ slug: post.slug }));
 }

@@ -89,6 +89,23 @@ Optional:
 
 - `NEXT_PUBLIC_SITE_URL` – Used for sitemap, robots, and social share URLs (default: `https://foundationshops.com`).
 
+## Deploy to Netlify
+
+1. **Push to GitHub** (or GitLab / Bitbucket):
+   ```bash
+   # Create a new repo on github.com, then:
+   git remote add origin https://github.com/YOUR_USERNAME/foundation-shops.git
+   git branch -M main
+   git push -u origin main
+   ```
+
+2. **Connect in Netlify**
+   - Go to [app.netlify.com](https://app.netlify.com) → **Add new site** → **Import an existing project**.
+   - Choose **GitHub** (or your Git provider) and authorize if needed.
+   - Select the `foundation-shops` repository.
+   - Build settings are in `netlify.toml`: **Build command** `npm run build`, **Publish directory** `.next`. Netlify will detect Next.js and use the right runtime.
+   - Click **Deploy site**. Netlify will build and deploy; later pushes to `main` will trigger new deploys.
+
 ## License
 
 Private / All rights reserved.
