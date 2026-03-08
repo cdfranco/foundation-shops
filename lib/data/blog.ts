@@ -333,6 +333,47 @@ According to 2026 longevity research, the goal is a mix of Zone 2 Cardio (for he
     tags: ['fitness', 'longevity', 'Zone 2', 'strength training', 'schedule', '2026'],
     relatedSlugs: ['best-fitness-activities-every-age-2026', 'best-fitness-trackers-2024'],
   },
+  {
+    slug: '7-day-active-discovery-schedule-5-17',
+    title: 'The 7-Day "Active Discovery" Schedule for Ages 5–17',
+    excerpt:
+      'A week-by-week movement mix for kids and teens: 60 minutes of diverse activity per day to build coordination, bone density, and aerobic capacity—without feeling like a chore.',
+    content: `
+For this age group, the focus is on diversity of movement. At this stage, the body is a "movement sponge," and the goal is to develop coordination, bone density, and aerobic capacity without it feeling like a chore.
+
+According to current health guidelines, the aim is 60 minutes of activity per day. Here is a 7-day "Movement Mix" designed to be engaging and physically comprehensive.
+
+## The 7-Day "Active Discovery" Schedule (Ages 5–17)
+
+| Day | Focus | Activity Type | The Goal |
+|-----|-------|---------------|----------|
+| Mon | Agility & Social | Team Sport or Tag | High-intensity bursts and social coordination. |
+| Tue | Bone Power | Jumping / Gymnastics | High-impact (jumping rope/trampoline) to build bone density. |
+| Wed | Endurance | Cycling or Swimming | Sustained heart rate at a moderate level. |
+| Thu | Functional Strength | "Playground Workout" | Climbing, hanging, and swinging to build upper body strength. |
+| Fri | Skill Building | Practice a Specific Hobby | Developing "muscle memory" (skateboarding, dance, or martial arts). |
+| Sat | Family Adventure | Hiking or Long Walk | Low-intensity, long-duration movement in nature. |
+| Sun | Active Recovery | Free Play | Unstructured movement (backyard games or frisbee). |
+
+## 3 Pro-Tips for Keeping Them Engaged
+
+1. **The "Gamification" Rule:** Use tech to your advantage. If they love screens, try interactive fitness games (like VR sports or dance apps) or use a basic step-tracker to set "family challenges."
+
+2. **Focus on "The Why":** Instead of talking about "health," talk about performance. For teens, frame it as: "This will make you faster on the pitch" or "This will give you more energy for your hobbies."
+
+3. **The 10-Minute Micro-Bout:** If a full hour is hard to find, break it up. Three 20-minute sessions (recess, after-school play, and an evening walk) provide the exact same physiological benefits as one 60-minute session.
+    `.trim(),
+    featuredImage:
+      'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&h=500&fit=crop',
+    featuredImageAlt: 'Kids and teens in active play',
+    category: 'Fitness',
+    categorySlug: 'fitness',
+    author: 'Foundation Shops',
+    publishedAt: '2026-03-07',
+    readTime: 5,
+    tags: ['fitness', 'kids', 'teens', 'activity', 'movement', 'schedule', '2026'],
+    relatedSlugs: ['best-fitness-activities-every-age-2026', '7-day-longevity-power-schedule-18-64'],
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {
