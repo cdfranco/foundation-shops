@@ -374,6 +374,65 @@ According to current health guidelines, the aim is 60 minutes of activity per da
     tags: ['fitness', 'kids', 'teens', 'activity', 'movement', 'schedule', '2026'],
     relatedSlugs: ['best-fitness-activities-every-age-2026', '7-day-longevity-power-schedule-18-64'],
   },
+  {
+    slug: 'fitness-gear-65-plus-stability-strength-2026',
+    title: 'Fitness Gear for 65+: Stability, Strength, and Joint-Friendly Essentials',
+    excerpt:
+      'A curated list of home fitness gear for the 65+ age group—focused on safety, balance, joint preservation, and functional independence in 2026.',
+    content: `
+For the 65+ age group, the priority for fitness gear shifts toward safety, stability, and joint preservation. In 2026, the focus is on "Functional Independence"—having the strength to carry groceries, the balance to prevent trips, and the mobility to stay active in the community.
+
+Here is a curated list of gear designed to support a safe and effective fitness routine at home.
+
+## The "Stability & Balance" Kit
+
+**Focus:** Preventing falls and improving coordination.
+
+| Item | Why It's Appropriate | Benefit |
+|------|----------------------|---------|
+| Balance Pad (Foam) | Provides a "squishy," unstable surface. | Strengthens ankle stabilizers and improves balance. |
+| Weighted Vest (Light) | Evenly distributes weight; hands stay free. | Best for increasing bone density during daily walks. |
+| Yoga Strap / Stretch Belt | Acts as an extension of your arms. | Increases range of motion without straining the back. |
+| Non-Slip Yoga Mat | Extra thick (6mm+) for knee cushioning. | Provides a secure foundation for floor or chair work. |
+
+## The "Joint-Friendly Strength" Kit
+
+**Focus:** Maintaining muscle mass without heavy impact.
+
+| Item | Why It's Appropriate | Benefit |
+|------|----------------------|---------|
+| Flat Resistance Bands | Easy to grip; no heavy weights to drop. | Builds functional strength for daily movements. |
+| Soft-Grip Dumbbells | Neoprene coating is easy on arthritic hands. | Enhances upper body power and grip strength. |
+| Step Platform (Adjustable) | Low height (4 inches) is safer for knees. | Mimics climbing stairs, a vital real-world skill. |
+| Pedal Exerciser | Can be used while seated in a favorite chair. | Keeps leg circulation high and joints moving. |
+
+## The Universal Essential: "Ease-of-Use" Footwear
+
+Foot health is critical at this stage. Look for shoes that prioritize traction and entry:
+
+- **Hands-Free Entry:** "Step-in" designs or bungee laces are excellent if reaching your feet is difficult.
+- **Wide Toe Box:** Allows toes to spread naturally, which significantly improves balance.
+- **Maximal Cushioning:** Look for high-stack foam to absorb the impact on hips and knees during walks.
+
+## 3 Safety-First Shopping Tips
+
+1. **The "Tactile" Rule:** When buying weights or bands, look for "textured" or "non-slip" surfaces. As we age, skin can become drier and grip can weaken; a textured surface ensures the equipment stays in your hands.
+
+2. **Visual High-Contrast:** If you have any vision changes, choose gear in bright, contrasting colors (like neon orange or bright blue). This prevents tripping over equipment left on the floor.
+
+3. **The "Chair-Assist" Setup:** You don't need a gym; a sturdy, armless kitchen chair is one of the best pieces of "gear" you own. Ensure any gear you buy (like bands or balls) can be used while seated or while holding the back of the chair for support.
+    `.trim(),
+    featuredImage:
+      'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=500&fit=crop',
+    featuredImageAlt: 'Senior fitness and balance equipment',
+    category: 'Fitness',
+    categorySlug: 'fitness',
+    author: 'Foundation Shops',
+    publishedAt: '2026-03-07',
+    readTime: 6,
+    tags: ['fitness', 'seniors', '65+', 'balance', 'strength', 'gear', '2026'],
+    relatedSlugs: ['best-fitness-activities-every-age-2026', '7-day-longevity-power-schedule-18-64'],
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {
