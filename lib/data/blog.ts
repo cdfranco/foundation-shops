@@ -433,6 +433,68 @@ Foot health is critical at this stage. Look for shoes that prioritize traction a
     tags: ['fitness', 'seniors', '65+', 'balance', 'strength', 'gear', '2026'],
     relatedSlugs: ['best-fitness-activities-every-age-2026', '7-day-longevity-power-schedule-18-64'],
   },
+  {
+    slug: 'fitness-gear-18-64-home-strength-longevity-2026',
+    title: 'Fitness Gear for Ages 18–64: Home Strength and Longevity Essentials',
+    excerpt:
+      'A high-performance gear guide for ages 18–64, from compact home strength kits to tech that tracks Zone 2, recovery, and long-term joint health.',
+    content: `
+For the 18–64 age group, fitness gear shifts from "toys" to tools for precision and longevity. Since this group often balances busy schedules, the best gear is either highly versatile for home use or designed to track health metrics in real-time.
+
+Here is an age-appropriate gear list categorized by how it supports a high-performance lifestyle.
+
+## The "Home Strength" Kit (Ages 18–45)
+
+**Focus:** Building Muscle and Metabolic Health.
+
+| Item | Why It's Appropriate | Benefit |
+|------|----------------------|---------|
+| Adjustable Dumbbells | Replaces many pairs of weights; saves space. | Essential for progressive overload and muscle growth. |
+| Kettlebell (Standard) | Versatile for cardio and strength. | Builds functional power and core stability. |
+| Suspension Trainer (e.g., TRX) | Uses body weight; hooks over any door. | Great for joint-friendly strength and mobility. |
+| High-Density Foam Roller | Deep tissue release for recovery. | Manages muscle soreness from high-intensity work. |
+
+## The "Longevity & Tech" Kit (Ages 46–64)
+
+**Focus:** Heart Health, Recovery, and Joint Protection.
+
+| Item | Why It's Appropriate | Benefit |
+|------|----------------------|---------|
+| Smart Watch / Fitness Tracker | Monitors "Zone 2" heart rate and sleep. | Provides data-driven insights for heart health. |
+| Resistance Band Set (with handles) | Constant tension without dropping weights. | Protects tendons and joints while building strength. |
+| Yoga Blocks & Strap | Bridges the gap for limited flexibility. | Improves posture and counteracts "sitting disease." |
+| Anti-Fatigue Balance Board | Use while at a standing desk. | Strengthens ankles and stabilizers during work hours. |
+
+## The Universal Essential: "Supportive" Footwear
+
+As we age, the fat pads on the bottom of our feet naturally thin out.
+
+- **Ages 18–40:** Look for versatile cross-trainers with a stable base for lifting and enough cushion for short runs.
+- **Ages 41–64:** Prioritize arch support and rocker soles to reduce stress on the plantar fascia and knees during daily walks.
+
+## 3 Smart Investment Tips
+
+1. **The "Quality Over Quantity" Rule:** One pair of high-quality adjustable dumbbells is a better investment than a cheap, flimsy home gym machine. Metal and rubber last decades; plastic breaks.
+
+2. **The "Recovery" Tier:** In your 40s and 50s, recovery becomes as important as the workout. Investing in a percussion massage gun or a high-quality weighted blanket can improve sleep and muscle repair.
+
+3. **The "Visual Feedback" Tool:** A simple full-length mirror in your workout space is the best gear for preventing injury. It allows you to self-correct your form in real time, which is critical as your joints become more sensitive to poor alignment.
+    `.trim(),
+    featuredImage:
+      'https://images.unsplash.com/photo-1571019613604-1cb2f99b2d8b?w=800&h=500&fit=crop',
+    featuredImageAlt: 'Home strength and fitness tech gear',
+    category: 'Fitness',
+    categorySlug: 'fitness',
+    author: 'Foundation Shops',
+    publishedAt: '2026-03-07',
+    readTime: 6,
+    tags: ['fitness', 'gear', '18–64', 'home gym', 'longevity', '2026'],
+    relatedSlugs: [
+      'best-fitness-activities-every-age-2026',
+      '7-day-longevity-power-schedule-18-64',
+      'best-fitness-trackers-2024',
+    ],
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {
